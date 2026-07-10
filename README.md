@@ -31,7 +31,7 @@ Packages the app into a Docker image
 ## Step 4: Run the Container
 Starts the app inside Docker
 
-###Open http://localhost:4000 → app running
+### Open http://localhost:4000 → app running
  
 
 # Docker Hub Workflow
