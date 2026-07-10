@@ -30,20 +30,24 @@ Packages the app into a Docker image
 
 ## Step 4: Run the Container
 Starts the app inside Docker
-Open http://localhost:4000 → app running
+
+###Open http://localhost:4000 → app running
  
 
 # Docker Hub Workflow
 
 ## Push Image to Docker Hub
+```bash
 docker login
 docker tag node-app your-username/node-app:latest
 docker push your-username/node-app:latest
+```
 
 ## Pull & Run Anywhere
+```bash
 docker pull your-username/node-app:latest
 docker run -p 4000:4000 your-username/node-app:latest
-  
+```
 
 
 
