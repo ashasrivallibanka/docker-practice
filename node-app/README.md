@@ -30,8 +30,10 @@ Packages the app into a Docker image
 
 ## Step 4: Run the Container
 Starts the app inside Docker
-
-### Open http://localhost:4000 → app running
+```bash
+docker run -p 4000:4000 node-app
+```
+#### Open http://localhost:4000 → app running
  
 
 # Docker Hub Workflow
