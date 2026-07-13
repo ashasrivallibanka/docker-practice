@@ -1,4 +1,4 @@
-### Dockerize a React App (Single-Stage)
+# Dockerize a React App (Single-Stage)
 
 ## Step 1: Create React Application
 ```bash
