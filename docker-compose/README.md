@@ -78,10 +78,10 @@ volumes:
 
 
 ## Running the Application
-docker-compose build   # Build Images
-docker-compose up      # Start Containers
-docker ps              # Verify
-docker-compose down    # Stop Everything
+docker-compose build   #Build Images
+docker-compose up      #Start Containers
+docker ps              #Verify
+docker-compose down    #Stop Everything
 
 
 ## Access
