@@ -78,10 +78,11 @@ volumes:
 
 
 ## Running the Application
-docker-compose build   #Build Images
-docker-compose up      #Start Containers
-docker ps              #Verify
-docker-compose down    #Stop Everything
+```bash
+docker-compose build    # Build images for backend, frontend, and MongoDB
+docker-compose up       # Start all containers together
+docker ps               # Verify containers are running (backend, frontend, mongo)
+docker-compose down     # Stop and clean up containers, networks, and volumes
 
 
 ## Access
