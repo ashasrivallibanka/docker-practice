@@ -10,6 +10,7 @@ The goal of this project is to demonstrate how to containerize a full stack appl
 
 
 ## Project Structure
+```bash
 docker-compose/
 │── backend/
 │   ├── Dockerfile
@@ -24,7 +25,7 @@ docker-compose/
 │       ├── index.js
 │       └── App.js
 │── docker-compose.yml
-
+```
 
 ## Steps to Run
 
