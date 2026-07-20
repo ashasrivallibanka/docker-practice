@@ -78,12 +78,10 @@ volumes:
 
 
 ## Running the Application
-```bash
-docker-compose build    # Build images for backend, frontend, and MongoDB
-docker-compose up       # Start all containers together
-docker ps               # Verify containers are running (backend, frontend, mongo)
-docker-compose down     # Stop and clean up containers, networks, and volumes
-
+- docker-compose build    # Build images for backend, frontend, and MongoDB
+- docker-compose up       # Start all containers together
+- docker ps               # Verify containers are running (backend, frontend, mongo)
+- docker-compose down     # Stop and clean up containers, networks, and volumes
 
 ## Access
 Frontend → http://localhost:3000
